@@ -1,5 +1,5 @@
-exports.Token = 'NTk4OTA0NTg0NzQ4MDA3NDI1.XSdjdQ.za_JaFQvlgl9Blx_waRanUrZ_Mw';
+exports.Token = process.env.Token;
 
-exports.Google_api_key = 'AIzaSyCjGRSdN0Axpf3d_fq0SYaTpEhcrN9u8-0';
+exports.Google_api_key = process.env.Google_api_key;
 
 exports.PREFIX = '/';
